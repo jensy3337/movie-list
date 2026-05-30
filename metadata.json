@@ -1,0 +1,6 @@
+{
+  "name": "my watchlist",
+  "description": "A personal watchlist tracker for Movies, Series, and Anime with a soft pastel, cozy aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
