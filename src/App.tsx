@@ -68,7 +68,7 @@ function initializeDatabase(): WatchlistDatabase {
 export default function App() {
   const [database, setDatabase] = useState<WatchlistDatabase>(() => initializeDatabase());
   const [activeSection, setActiveSection] = useState<ItemSection>('movies');
-  const [activeStatus, setActiveStatus] = useState<ItemStatus>('Watching');
+  const [activeStatus, setActiveStatus] = useState<ItemStatus>('Watched');
 
   // Filter and Sorting search state
   const [searchQuery, setSearchQuery] = useState('');
